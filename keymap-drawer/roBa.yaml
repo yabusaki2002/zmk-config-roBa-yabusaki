@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: SCROLL}
+  - I
   - O
   - P
   - A
@@ -16,34 +16,34 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - ''
   - '-'
   - H
   - J
   - K
   - L
   - ''''
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
   - B
-  - ':'
-  - ;
+  - TAB
+  - RIGHT SHIFT
   - N
   - M
   - ','
   - .
   - /
-  - LCTRL
-  - LEFT WIN
+  - LEFT SHIFT
   - LEFT ALT
-  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
-  - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - LEFT GUI
+  - {t: Ctl+SPACE, h: LEFT CONTROL}
+  - {t: ESC, h: NUM}
+  - SPACE
+  - ENTER
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
-  - DEL
+  - {t: ARROW, h: toggle}
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - F12
   NUM:
   - '-'
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
