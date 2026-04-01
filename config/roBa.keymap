@@ -93,9 +93,9 @@
 
         symbol {
             bindings = <
-&none      &kp EQUAL         &kp UP             &kp PLUS         &none                               &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp GRAVE  &kp EQUAL         &kp UP             &kp PLUS         &none                               &kp CARET         &kp AMPERSAND      &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH  &kp LEFT_ARROW    &kp DOWN_ARROW     &kp RIGHT_ARROW  &none   &none       &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&none      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp ASTERISK     &none   &none       &kp MINUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&none      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp TILDE        &none   &none       &kp MINUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans     &trans            &trans             &trans           &trans  &trans      &kp LG(SPACE)   &trans                                                                     &kp PIPE
             >;
         };
