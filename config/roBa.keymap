@@ -30,7 +30,7 @@
         compatible = "zmk,combos";
 
         tofunctionLayer {
-            bindings = <&mo 2>;
+            bindings = <&mo 1>;
             key-positions = <10 22>;
             timeout-ms = <50>;
             require-prior-idle-ms = <125>;
