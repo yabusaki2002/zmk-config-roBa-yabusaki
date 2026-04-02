@@ -56,7 +56,7 @@
         };
 
         tmux_pre {
-            bindings = <&none>;
+            bindings = <&kp LC(G)>;
             key-positions = <10 14>;
             timeout-ms = <200>;
             require-prior-idle-ms = <125>;
