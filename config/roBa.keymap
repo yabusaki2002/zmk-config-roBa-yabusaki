@@ -62,6 +62,14 @@
             require-prior-idle-ms = <125>;
             layers = <0>;
         };
+
+        ctrl_a {
+            bindings = <&kp LC(A)>;
+            key-positions = <10 11>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+        };
     };
 
     macros {
