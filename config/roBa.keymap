@@ -50,7 +50,7 @@
         ime_toggle {
             bindings = <&kp LC(SPACE)>;
             key-positions = <10 39>;
-            timeout-ms = <200>;
+            timeout-ms = <400>;
             require-prior-idle-ms = <125>;
             layers = <0>;
         };
