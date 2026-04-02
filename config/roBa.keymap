@@ -66,9 +66,10 @@
         alt-tab {
             bindings = <&kp LG(TAB)>;
             key-positions = <0 37>;
-            timeout-ms = <200>;
+            timeout-ms = <250>;
             require-prior-idle-ms = <125>;
             layers = <0>;
+            slow-release;
         };
     };
 
