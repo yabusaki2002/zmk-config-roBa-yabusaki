@@ -66,8 +66,8 @@
         alt-tab {
             bindings = <&cmd_tab_hold>;
             key-positions = <0 37>;
-            timeout-ms = <400>;
-            require-prior-idle-ms = <125>;
+            timeout-ms = <300>;
+            require-prior-idle-ms = <400>;
             layers = <0>;
             slow-release;
         };
