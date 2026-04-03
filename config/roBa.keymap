@@ -87,7 +87,9 @@
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp TAB>
+                , <&macro_press &mo 7>
                 , <&macro_pause_for_release>
+                , <&macro_release &mo 7>
                 , <&macro_release &kp LGUI>;
         };
     };
@@ -170,6 +172,15 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        cmd_tab_layer {
+            bindings = <
+&kp TAB  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
