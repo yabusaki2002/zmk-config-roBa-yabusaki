@@ -50,8 +50,8 @@
         ime_toggle {
             bindings = <&kp LC(SPACE)>;
             key-positions = <10 39>;
-            timeout-ms = <400>;
-            require-prior-idle-ms = <125>;
+            timeout-ms = <300>;
+            require-prior-idle-ms = <50>;
             layers = <0>;
         };
 
@@ -84,13 +84,18 @@
         cmd_tab_hold: cmd_tab_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_tap &kp TAB>
-                , <&macro_press &mo 7>
-                , <&macro_pause_for_release>
-                , <&macro_release &mo 7>
-                , <&macro_release &kp LGUI>;
+            bindings =
+                <&macro_press>,
+                <&kp LGUI>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_press>,
+                <&mo 7>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 7>,
+                <&macro_release>,
+                <&kp LGUI>;
         };
     };
 
