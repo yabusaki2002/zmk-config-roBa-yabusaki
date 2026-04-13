@@ -65,7 +65,7 @@
 
         alt-tab {
             bindings = <&cmd_tab_hold>;
-            key-positions = <0 37>;
+            key-positions = <0 38>;
             timeout-ms = <300>;
             require-prior-idle-ms = <400>;
             layers = <0>;
