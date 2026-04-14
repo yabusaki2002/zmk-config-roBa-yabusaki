@@ -11,19 +11,19 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
   - G
-  - {t: F12, h: SCROLL}
+  - F12
   - '-'
   - H
   - J
   - K
   - L
   - ;
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -38,10 +38,10 @@ layers:
   - LEFT SHIFT
   - LEFT ALT
   - LCTRL
-  - {t: Ctl+SPACE, h: LEFT GUI}
+  - LEFT GUI
   - {t: ESC, h: symbol}
   - SPACE
-  - ENTER
+  - {t: ENTER, h: num}
   - BACKSPACE
   - num
   FUNCTION:
@@ -123,10 +123,10 @@ layers:
   - '{'
   - '}'
   - \
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCMD
   - {type: held}
   - {t: ▽, type: trans}
   - Gui+SPACE
@@ -173,9 +173,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - {t: ENTER, h: num}
+  - {t: ENTER, type: held}
   - BSPC
-  - {type: held}
+  - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ESC, h: SCROLL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,30 +236,30 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -280,8 +280,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -292,8 +292,8 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {type: held}
-  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: '&bootloader', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,10 +308,63 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
+  cmd_tab:
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [10, 22]
   k: FUNCTION
   l: [default]
-- p: [15, 27]
+- p: [16, 28]
   k: '6'
+  l: [default]
+- p: [10, 39]
+  k: Ctl+SPACE
+  l: [default]
+- p: [10, 15]
+  k: Ctl+G
+  l: [default]
+- p: [0, 38]
+  k: '&cmd_tab_hold'
   l: [default]
