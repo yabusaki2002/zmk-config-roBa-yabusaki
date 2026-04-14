@@ -19,8 +19,8 @@
             <&kp LC(Q)>,
             <&kp LA(TAB)>,
             <&kp LA(LS(TAB))>;
-        tick = <30>;
-        wait-ms = <80>;
+        tick = <100>;
+        wait-ms = <250>;
         tap-ms = <30>;
     };
 };
