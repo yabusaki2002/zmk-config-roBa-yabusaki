@@ -19,7 +19,7 @@
             <&kp LC(Q)>,
             <&kp LA(TAB)>,
             <&kp LA(LS(TAB))>;
-        tick = <100>;
+        tick = <600>;
         wait-ms = <250>;
         tap-ms = <30>;
     };
