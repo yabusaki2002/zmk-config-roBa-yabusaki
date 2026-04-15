@@ -71,6 +71,15 @@
             layers = <0>;
             slow-release;
         };
+
+        ctrl-tab {
+            bindings = <&ctrl_tab_hold>;
+            key-positions = <24 38>;
+            timeout-ms = <300>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+            slow-release;
+        };
     };
 
     macros {
@@ -96,6 +105,23 @@
                 <&mo 7>,
                 <&macro_release>,
                 <&kp LGUI>;
+        };
+
+        ctrl_tab_hold: ctrl_tab_hold {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_press>,
+                <&mo 8>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 8>,
+                <&macro_release>,
+                <&kp LCTRL>;
         };
     };
 
@@ -186,6 +212,15 @@
 &trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        ctrl_tab_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp TAB &trans  &trans   &trans      &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &trans     &trans                          &trans
             >;
         };
     };
