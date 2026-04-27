@@ -81,6 +81,12 @@
             layers = <0>;
             slow-release;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -218,10 +224,10 @@
 
         ctrl_tab_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp TAB &trans  &trans   &trans      &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &trans     &trans                          &trans
+&trans  &trans  &trans   &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp TAB  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans   &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
